@@ -1,0 +1,14 @@
+diff a/SpinnakerTest/MainWindow.xaml b/SpinnakerTest/MainWindow.xaml	(rejected hunks)
+@@ -124,9 +124,9 @@
+ 
+         <Grid x:Name="FOCUSCONTROL" Grid.Column="0" Grid.Row="4">
+             
+-            <Button x:Name="btnNear" Content="+" HorizontalAlignment="Left" Margin="130,20,0,0" Width="30" Height="30" PreviewMouseLeftButtonDown="BtnNear_Click" PreviewMouseLeftButtonUp="MouseButtonUp"/>
+-            <Button x:Name="btnAuto" Content="*" HorizontalAlignment="Left" Margin="170,31,0,0" Width="30" Height="30" VerticalAlignment="Top" Click="BtnAuto_Click" />
+-            <Button x:Name="btnFar" Content="-" HorizontalAlignment="Left" Margin="210,20,0,0" Width="30" Height="30" PreviewMouseLeftButtonDown="BtnFar_Click" PreviewMouseLeftButtonUp="MouseButtonUp"/>
++            <Button x:Name="btnFocusNear" Content="+" HorizontalAlignment="Left" Margin="130,20,0,0" Width="30" Height="30" PreviewMouseLeftButtonDown="BtnFocusNear_Click" PreviewMouseLeftButtonUp="MouseButtonUp"/>
++            <Button x:Name="btnFocusAuto" Content="*" HorizontalAlignment="Left" Margin="170,31,0,0" Width="30" Height="30" VerticalAlignment="Top" Click="BtnFocusAuto_Click" />
++            <Button x:Name="btnFocusFar" Content="-" HorizontalAlignment="Left" Margin="210,20,0,0" Width="30" Height="30" PreviewMouseLeftButtonDown="BtnFocusFar_Click" PreviewMouseLeftButtonUp="MouseButtonUp"/>
+         </Grid>
+ 
+ 
